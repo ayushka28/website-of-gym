@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ayushka fitness</title>
+</head>
+<link
+	href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;700&family=Open+Sans:wght@300&family=Quintessential&family=Raleway:wght@100&family=Supermercado+One&display=swap"
+	rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+	body {
+		font-family: 'Baloo Bhaijaan 2', cursive;
+		margin: 0px;
+		padding: 0px;
+		/* background-image: url('https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mnw1Mzk5MjgxMHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60'); */
+		background-image: url('https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+	
+
+
+		background-repeat: no-repeat;
+		background-size: 1000px;
+		color: white;
+	}
+
+	.left {
+		display: inline-block;
+		position: absolute;
+		left: 34px;
+		top: 20px;
+		/* border: 2px solid white; */
+	}
+
+	.mid {
+		display: block;
+		width: 43%;
+		margin: 18px auto;
+		border: 2px solid grey;
+
+
+	}
+
+	.right {
+		word-spacing: 9px;
+		position: absolute;
+		right: 34px;
+		top: 20px;
+		display: inline-block;
+		/* border: 2px solid green; */
+	}
+
+	li {
+		display: inline-block;
+		font-size: 15px;
+		/* width:10%; */
+
+	}
+
+	li a {
+		color: white;
+		text-decoration: none;
+		padding: 3px;
+	}
+
+	li a:hover,
+	li a.active {
+		color: pink;
+		text-decoration: underline;
+		/* padding: 3px; */
+	}
+
+	.left img {
+		width: 107px;
+		filter: invert(100%)
+	}
+
+	.left div {
+		line-height: 19px;
+	}
+
+	.btn {
+		font-family: 'Baloo Bhaijaan 2', cursive;
+		margin: 0px;
+		background-color: black;
+		color: white;
+		padding: 4px 14px;
+		border: 2px solid blue;
+		border-radius: 10px;
+		font-size: 15px;
+		cursor: pointer;
+	}
+
+	.btn:hover {
+		background-color: red;
+
+	}
+
+	.container {
+		color: pink;
+		/* font-size: 54px; */
+		border: 2px solid white;
+		margin: 109px 90px;
+		padding: 76px;
+		width: 40%;
+		border-radius: 28px;
+	}
+
+	.form-group input {
+		font-family: 'Baloo Bhaijaan 2', cursive;
+		font-size: 13px;
+		text-align: center;
+		display: block;
+		width: 200px;
+		padding: 7px;
+		border: 2px solid black;
+		margin: 11px auto;
+		border-radius: 8px;
+		display: block;
+
+	}
+
+	.container h1 {
+		color: blue;
+		text-align: center;
+	}
+
+	.container button {
+		display: block;
+		width: 74%;
+		margin: 20px auto;
+
+	}
+</style>
+
+<body>
+	<header class="header">
+		<!-- left for logo -->
+		<div class="left">
+			<img src="https://img.freepik.com/free-vector/flat-design-fitness-logo-template_23-2148230252.jpg?size=338&ext=jpg"
+				alt="">
+			<div>
+				<b>Ayushka fitness</b>
+			</div>
+		</div>
+		<!-- mid for navigation -->
+		<div class="mid">
+			<ul>
+				<li><a href="#" class="active"> Home</a></li>
+				<li><a href="#">about us</a></li>
+				<li><a href="#"> contact</a></li>
+				<li><a href="#">fitness calculator</a></li>
+			</ul>
+
+		</div>
+		<!-- right for button -->
+		<div class="right">
+			<button class="btn">Email-us</button>
+			<button class="btn">call-us</button>
+
+		</div>
+	</header>
+	<div class="container">
+		<h1>
+			join the Best gym of Delhi
+		</h1>
+		<form action="noaction.php">
+			<div class="form-group">
+				<input type="text" name="" placeholder="enter your name">
+			</div>
+			<div class="form-group">
+				<input type="text" name="" placeholder="enter your Age">
+			</div>
+			<div class="form-group">
+				<input type="text" name="" placeholder="enter your Gender">
+			</div>
+			<div class="form-group">
+				<input type="text" name="" placeholder="enter your Locality">
+			</div>
+			<div>
+				<button class="btn">Submit</button>
+
+			</div>
+
+		</form>
+	</div>
+</body>
+</html>
